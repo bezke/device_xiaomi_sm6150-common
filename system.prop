@@ -60,3 +60,6 @@ wifi.interface=wlan0
 
 # Disable Remote Keygaurd animation
 persist.wm.enable_remote_keyguard_animation=0
+
+# Zygote
+persist.device_config.runtime_native.usap_pool_enabled=true
