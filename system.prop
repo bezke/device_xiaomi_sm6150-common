@@ -7,6 +7,10 @@ ro.charger.enable_suspend=true
 # CNE
 persist.vendor.cne.feature=1
 
+# GPS
+persist.sys.gps.fence=true
+persist.sys.gps.polaris=true
+
 # Media
 media.aac_51_output_enabled=true
 media.stagefright.enable-aac=true
@@ -39,9 +43,12 @@ telephony.lteOnCdmaDevice=1
 # Render
 debug.cpurend.vsync=false
 
-
 # Recovery
 ro.recovery.ui.margin_height=48
+
+# Telephony
+ro.telephony.sim_slots.count=2
+telephony.active_modems.max_count=2
 
 # WiFi
 wifi.interface=wlan0
