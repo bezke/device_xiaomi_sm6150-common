@@ -3,6 +3,7 @@ persist.device_config.runtime_native_boot.iorap_perfetto_enable=true
 
 # Bluetooth
 vendor.bluetooth.soc=cherokee
+bluetooth.device.class_of_device=90,2,12
 
 # Camera
 vendor.camera.aux.packagelist=com.android.camera
