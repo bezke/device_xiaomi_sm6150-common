@@ -52,3 +52,9 @@ telephony.active_modems.max_count=2
 
 # WiFi
 wifi.interface=wlan0
+
+#Spark 
+ro.spark.device.name= Sweet
+ro.spark.maintainer.username=bezke
+ro.spark.maintainer=bezke
+ro.spark.group.url=https://t.me/bezke1
